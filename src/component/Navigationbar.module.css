@@ -1,0 +1,14 @@
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#gofood{
+    margin-left: 2rem;
+    font-size: larger;
+}
+.active{
+    background-color: red;
+}
+.myOrders{
+    margin-left: 1rem;
+}

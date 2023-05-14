@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    /* border: 2px solid rgb(98, 0, 255); */
+    padding: 2rem;
+    /* margin-top: 5rem; */
+  
+  }
+   .card{
+    height: 22rem;
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid rgb(106, 110, 107);
+    gap: 1rem;
+    border-radius: 10px;
+    width: 18rem;
+  }
+  
+  .card img{
+    height: 15rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .select{
+    display: flex;
+    justify-content:center;
+    margin-top: -1.5rem;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    /* border: 2px solid yellow; */
+  
+  }
+  .title{
+    margin-left: 1rem;
+  }
+  .select select{
+    height: 2rem;
+    border-radius: 10px;
+  }
+ .cost{
+  margin-bottom: -1rem;
+ }
+ .cart{
+  width: 7rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  height: 3rem;
+  background-color: black;
+  color: white;
+ }
+  
+  
